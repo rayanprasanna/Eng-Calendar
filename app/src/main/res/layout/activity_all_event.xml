@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/december"
+    android:id="@+id/main"
+    tools:context=".sub_activity.AllEventActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/search_bar"
+        android:background="@color/colorPrimary"
+        app:theme="@style/AppTheme.Toolbar">
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below="@id/search_bar"
+        tools:ignore="UselessLeaf">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:id="@+id/public_event"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="Public Events"
+            android:background="@drawable/round_button"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:id="@+id/england_event"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="England"
+            android:background="@drawable/round_button"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:id="@+id/north_ireland_event"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="North Ireland"
+            android:background="@drawable/round_button"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/wales_event"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:text="Wales"
+            android:background="@drawable/round_button"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/scotland_event"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="Scotland"
+            android:background="@drawable/round_button"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</RelativeLayout>

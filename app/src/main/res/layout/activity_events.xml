@@ -1,0 +1,1922 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="@drawable/august"
+    tools:context=".sub_activity.EventsActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/search_bar"
+        android:background="@color/colorPrimary"
+        app:theme="@style/AppTheme.Toolbar">
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_below="@id/search_bar"
+        android:scrollbars="none"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:ignore="ScrollViewSize,UselessParent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/all_event"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 Events"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:text="January"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 01 / 01"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/jan_1"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 01 / 06"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/jan_3"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 01 / 07"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginVertical="10dp"
+                    android:src="@drawable/jan_4"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 01 / 14"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/jan_5"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 01 / 25"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/jan_7"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="20dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="February"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 02 / 10"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/feb_1"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 02 / 14"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/feb_2"
+                    android:layout_marginVertical="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 02 / 21"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/feb_3"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 02 / 25"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/feb_4"
+                    android:layout_marginVertical="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 02 / 26"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/feb_5"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:text="March"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 03 / 10"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/mar_2"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 03 / 10"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/mar_3"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 03 / 20"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/mar_5"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 03 / 22"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/mar_6"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 03 / 22"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/mar_7"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 03 / 29"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/mar_8"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="April"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 05"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_1"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 09"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_2"
+                    android:layout_marginVertical="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 09"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_3"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 10"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_4"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 11"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_5"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 12"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_6_1"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 16"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_7"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 17"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_8"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 18"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_9"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 19"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_10"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 20"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_11"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 21"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_12"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 22"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_13"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 23"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_14"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 23"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_15"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 24"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_16"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 29"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_17"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="20dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="May"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 05 / 08"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/may_1"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 05 / 12"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginVertical="10dp"
+                    android:src="@drawable/may_2"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 05 / 19"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/may_3"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 05 / 21"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/may_4"
+                    android:layout_marginVertical="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 05 / 24"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/may_5"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 05 / 25"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/may_6"
+                    android:layout_marginVertical="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 05 / 29"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/may_7"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 05 / 31"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/may_8"
+                    android:layout_marginVertical="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="20dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="June"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 06 / 01"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/june_1"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 06 / 07"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/june_2"
+                    android:layout_marginVertical="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 06 / 11"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/june_3"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 06 / 13"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/june_4"
+                    android:layout_marginVertical="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 06 / 20"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/june_5"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 06 / 21"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/june_6"
+                    android:layout_marginVertical="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 06 / 22"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/june_7"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="July"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 07 / 30"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/july_3"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 07 / 31"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/july_4"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="August"
+                    android:layout_margin="20dp"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 08 / 03"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/aug_1"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 08 / 11"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/aug_3"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 08 / 15"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/aug_4"
+                    android:layout_marginVertical="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 08 / 20"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/aug_5"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 08 / 22"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/aug_6"
+                    android:layout_marginVertical="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 08 / 29"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/aug_7"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="20dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="September"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 09 / 19"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/sep_1"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 09 / 22"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/sep_2"
+                    android:layout_marginTop="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,TooManyViews,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 09 / 28"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/sep_3"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="20dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="October"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 10 / 03"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/oct_1"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 10 / 04"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginVertical="10dp"
+                    android:src="@drawable/oct_2"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 10 / 09"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/oct_3"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 10 / 10"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/oct_4"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 10 / 11"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/oct_5"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 10 / 17"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/oct_6"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 10 / 25"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/oct_7"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 10 / 25"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/oct_8"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 10 / 29"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/oct_9"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 10 / 31"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/oct_10"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:text="November"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 11 / 01"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/nov_1"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 11 / 02"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/nov_2"
+                    android:layout_marginVertical="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 11 / 05"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/nov_3"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 11 / 08"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/nov_4"
+                    android:layout_marginVertical="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 11 / 14"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/nov_5"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 11 / 29"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/nov_6"
+                    android:layout_marginTop="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="December"
+                    android:layout_margin="20dp"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 12 / 08"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/dec_1"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 12 / 11"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/dec_2"
+                    android:layout_marginTop="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 12 / 18"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/dec_3"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 12 / 21"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/dec_4"
+                    android:layout_marginTop="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 12 / 24"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/dec_5"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 12 / 25"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/dec_6"
+                    android:layout_marginTop="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 12 / 26"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/dec_7"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 12 / 28"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/dec_8"
+                    android:layout_marginTop="10dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 12 / 31"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/dec_9"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/england_event">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 Events"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:text="April"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 13"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_easter_mon"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:text="August"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 08 / 31"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/aug_bank"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/wales_event">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 Events"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:text="March"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 03 / 01"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/mar_st_david"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:text="April"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 13"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_easter_mon"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:text="August"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 08 / 31"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/aug_bank"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/scotland_event">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 Events"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:text="January"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 01 / 02"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/jan_2_jan"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 01 / 25"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/jan_burn"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:text="April"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 13"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_easter_mon"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:textColor="@android:color/black"
+                android:text="August"
+                tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 08 / 31"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/aug_bank"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:text="November"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 11 / 30"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/nov_st_andrew"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/north_ireland_event">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 Events"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:text="March"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 03 / 17"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/mar_st_patric"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:text="April"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 04 / 13"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/apr_easter_mon"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:text="July"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 07 / 12"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/jul_battle_2"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 08 / 13"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/jul_battle_1"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:text="August"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2020 / 08 / 31"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/aug_bank"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
